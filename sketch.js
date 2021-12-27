@@ -15,7 +15,7 @@ function setup() {
   carGroup1 = new Group();
   logGroup1 = new Group();
 
-  player = new Player(width/2,height-25);
+
 
   if(i%2===0)
   {
@@ -46,6 +46,7 @@ function setup() {
    
   bottomGrass1.shapeColor="green";
  }
+ player = new Player(width/2,height-25);
 }
 
 function draw() {
